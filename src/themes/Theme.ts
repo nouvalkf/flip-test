@@ -6,6 +6,7 @@ const palette = {
   black: '#000000',
   white: '#FFFFFF',
   lightGrey: '#DFDFDE',
+  grey: '#808080'
 };
 
 export const fontsFamily = {
@@ -24,6 +25,7 @@ export const theme = {
     primary: palette.orange,
     success: palette.green,
     lightGrey: palette.lightGrey,
+    grey: palette.grey
   },
   spacing: {
     xs: 4,

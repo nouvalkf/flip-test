@@ -45,6 +45,7 @@ const SearchInput: FC<ISearchInputProps> = ({
           placeholder={placeholder}
           onChangeText={handleSearch}
           underlineColorAndroid="transparent"
+          placeholderTextColor={theme.colors.grey}
         />
       </Box>
       <Box style={styles.sortContainer}>

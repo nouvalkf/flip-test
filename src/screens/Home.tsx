@@ -78,7 +78,7 @@ const Home: FC<IHome> = ({navigation}) => {
       setData(dataSearch);
     } else if (!debounceSearch && sortValue) {
       onSort(sortValue, true);
-    } else {
+    } else if (debounceSearch.length === 0) {
       initialData();
     }
   };
